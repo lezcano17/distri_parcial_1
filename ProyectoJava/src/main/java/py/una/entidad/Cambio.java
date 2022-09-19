@@ -1,20 +1,15 @@
 package py.una.entidad;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Cambio {
 
 	Long id_entidad;
 	Double compra;
 	Double venta;
-	
-	
-	public Cambio(){
-		
+
+	public Cambio() {
+
 	}
 
-	
-	
 	/**
 	 * @param id_entidad
 	 * @param compra
@@ -27,41 +22,28 @@ public class Cambio {
 		this.venta = venta;
 	}
 
-
-
 	public Long getId_entidad() {
 		return id_entidad;
 	}
-
-
 
 	public void setId_entidad(Long id_entidad) {
 		this.id_entidad = id_entidad;
 	}
 
-
-
 	public Double getCompra() {
 		return compra;
 	}
-
-
 
 	public void setCompra(Double compra) {
 		this.compra = compra;
 	}
 
-
-
 	public Double getVenta() {
 		return venta;
 	}
 
-
-
 	public void setVenta(Double venta) {
 		this.venta = venta;
 	}
-
 
 }
